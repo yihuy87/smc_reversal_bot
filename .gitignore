@@ -1,0 +1,66 @@
+# ============================
+#  Python cache & build files
+# ============================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+
+# Data bot
+subscribers.json
+vip_users.json
+bot_state.json
+logs/
+*.log
+
+# Virtual environment
+venv/
+env/
+.venv/
+.env/
+*.env
+.env
+
+
+# macOS files
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VSCode settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# ============================
+#   Security & Credentials
+# ============================
+.env
+*.env
+config_secret.py
+
+# ============================
+#   Project-specific ignores
+# ============================
+data/
+temp/
+exports/
+
+*.sqlite
+*.db
+
+*.so
+
+*.bak
+*.tmp
